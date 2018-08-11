@@ -71,7 +71,7 @@ body {
 }
 
 .nav-masthead .active {
-  color: rgb(233, 216, 216);
+  color: rgb(204, 136, 212);
   border-bottom-color: #fff;
 }
 
@@ -109,17 +109,32 @@ body {
   background-size: cover;  
  
 }
-
-.f10-info{
-  font-size: 10px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+.heads{
+  letter-spacing: 0.2em;
   font-weight: bold;
+  border-bottom:1px solid rgb(224, 224, 224);
+  height: 100px;
+  padding-top: 40px;
 }
 
-.f10-info-body{
+.ex-edu-text{
+  line-height: 1.8em;
+  font: normal normal normal 14px/1.4em avenir-lt-w01_35-light1475496,sans-serif;
+}
+
+
+
+.profile-index{
   font-size: 10px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-
+  letter-spacing: 0.05em;
+  text-align: left;
+  background-color: #fff; 
+  color: rgba(24, 33, 83, 1);
+  padding-left: 40px;
+}
+.b{
+  font-weight: bold;
 }
 
 .profile-image{
