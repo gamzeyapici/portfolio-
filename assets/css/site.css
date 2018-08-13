@@ -9,6 +9,8 @@ a:hover {
   color: #fff;
 }
 
+
+
 /* Custom default button */
 .btn-secondary,
 .btn-secondary:hover,
@@ -40,6 +42,19 @@ body {
 .cover-container {
   max-width: 100%;
 }
+
+.mt20{
+  margin-top: 20px;
+
+}
+
+.pt20{
+  padding-top: 20px;
+}
+.pb20{
+  padding-bottom: 20px;
+}
+
 
 
 /*
@@ -109,6 +124,12 @@ body {
   background-size: cover;  
  
 }
+
+.second-paralax{
+  background-image: url("../images/client.jpg");
+  background-size: cover;  
+ 
+}
 .heads{
   letter-spacing: 0.2em;
   font-weight: bold;
@@ -117,16 +138,134 @@ body {
   padding-top: 40px;
 }
 
-.ex-edu-text{
-  line-height: 1.8em;
-  font: normal normal normal 14px/1.4em avenir-lt-w01_35-light1475496,sans-serif;
+.experience-education-text{
+  line-height: 2.0em;
+  font: normal normal normal 15px/1.4em avenir-lt-w01_35-light1475496; 
+  font-family: 'Times New Roman', Times, serif, Geneva, Tahoma, sans-serif;
+  padding-left: 40px;
+  text-align: right; 
+  border-right: 1px solid rgba(24, 33, 83, 1);
 }
+.expertise-text{
+  line-height: 2.0em;
+  font: normal normal normal 15px/1.4em avenir-lt-w01_35-light1475496; 
+  font-family: 'Times New Roman', Times, serif, Geneva, Tahoma, sans-serif;
+  padding-left: 20px;
+}
+
+.experience-education-head{
+  font: normal normal normal 16px/1.4em avenir-lt-w01_35-light1475496; 
+  font-family: 'Times New Roman', Times, serif, Geneva, Tahoma, sans-serif;
+  letter-spacing: 0.2em;
+  line-height: 1.8em;
+  margin-right: 30px;
+}
+
+.footer-information-text{
+  line-height: 3.0em;
+  font: normal normal normal 15px/1.4em avenir-lt-w01_35-light1475496; 
+  font-family: 'Times New Roman', Times, serif, Geneva, Tahoma, sans-serif;
+  padding-left: 20px;
+
+}
+
+.footer-head{
+
+    line-height: 1.8em;
+    letter-spacing: 0.1em;
+    font-size: 18px;   
+    
+ 
+    
+}
+
+.b{
+  font-weight: bold;
+}
+
+
+
+.f-13{
+line-height: 1.8em;
+letter-spacing: 0.2em;
+font-size: 13px;   
+}
+
+.f15{
+  font-size: 15px;
+}
+
+/* .p-w-l{
+  width: 400px;
+  line-height: 1.8em;
+} */
+.panel-footer{
+  border-color: #f1f1f1 !important;
+  font: normal normal normal 14px/1.4em avenir-lt-w01_35-light1475496; 
+  font-family: 'Times New Roman', Times, serif, Geneva, Tahoma, sans-serif;
+}
+.panel-footer-buton{
+  border-color: #f1f1f1 !important;
+  font: normal normal normal 14px/1.4em avenir-lt-w01_35-light1475496; 
+  font-family: 'Times New Roman', Times, serif, Geneva, Tahoma, sans-serif;
+  background-color: rgba(24, 33, 83, 1);
+  color: #fff;
+
+}
+
+
+
+.bt{
+  border-top:1px solid rgb(224, 224, 224);
+}
+.bb{
+  border-top:1px solid rgba(24, 33, 83, 1);
+}
+
+.mb20{
+  margin-bottom: 20px;
+}
+
+.mt30{
+  margin-top: 30px;
+}
+.mb30{
+  margin-bottom: 30px;
+}
+
+.pt40{
+  padding-top: 40px;
+}
+.client-icons {
+  font-size: 60px; 
+  color: grey;
+  padding: 60px;
+}
+
+.footer-socialmedia {
+  font-size: 20px; 
+  color: rgba(24, 33, 83, 1);
+  padding: 10px;
+}
+
+.box{
+  height: 70px;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, 0.15);
+  
+}
+
+
+  
+
 
 
 
 .profile-index{
   font-size: 10px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Times New Roman', Times, serif, Geneva, Tahoma, sans-serif;
   letter-spacing: 0.05em;
   text-align: left;
   background-color: #fff; 
@@ -272,3 +411,6 @@ body {
   transform: none;
   }
   } 
+
+
+  
