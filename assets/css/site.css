@@ -7,8 +7,26 @@ a,
 a:focus,
 a:hover {
   color: #fff;
+  transition: all 0.4s ease-in-out;
 }
 
+
+@media (max-width: 575px) { 
+  .experience-education-xs{
+
+   
+    text-align: left;
+    color: rgba(24, 33, 83, 1);
+
+    font: normal normal normal 15px/2.0em avenir-lt-w01_35-light1475496; 
+    font-family: 'Times New Roman', Times, serif, Geneva, Tahoma, sans-serif;
+ 
+  }
+
+  
+
+
+} 
 
 
 /* Custom default button */
@@ -166,7 +184,12 @@ body {
   line-height: 3.0em;
   font: normal normal normal 15px/1.4em avenir-lt-w01_35-light1475496; 
   font-family: 'Times New Roman', Times, serif, Geneva, Tahoma, sans-serif;
-  padding-left: 20px;
+  letter-spacing: 0.05em;
+  text-align: left;
+
+  color: rgba(24, 33, 83, 1);
+  padding-left: 40px;
+
 
 }
 
@@ -214,6 +237,10 @@ font-size: 13px;
 
 }
 
+.left{
+  float: left !important;
+}
+
 
 
 .bt{
@@ -247,6 +274,8 @@ font-size: 13px;
   font-size: 20px; 
   color: rgba(24, 33, 83, 1);
   padding: 10px;
+  float: left;
+ 
 }
 
 .box{
@@ -265,13 +294,13 @@ font-size: 13px;
 
 
 .profile-index{
-  font-size: 10px;
-  font-family: 'Times New Roman', Times, serif, Geneva, Tahoma, sans-serif;
+
+  font: normal normal normal 14px/1.4em avenir-lt-w01_35-light1475496; 
   letter-spacing: 0.05em;
   text-align: left;
   background-color: #fff; 
   color: rgba(24, 33, 83, 1);
-  padding-left: 40px;
+  padding-left: 60px;
 }
 .b{
   font-weight: bold;
