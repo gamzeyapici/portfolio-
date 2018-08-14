@@ -1,4 +1,4 @@
-<div class="inner">
+<div class="inner d-none d-sm-block">
     <h3 class="masthead-brand">Gamze Yapıcı</h3>
     <nav class="nav nav-masthead justify-content-center">
         <a class="nav-link" ui-sref-active="active" ui-sref="home">EXPERIENCE</a>
@@ -10,3 +10,35 @@
         <a class="nav-link" ui-sref-active="active" ui-sref="contact">CONTACT</a>
     </nav>
 </div>
+
+<!-- navbar visible in xs screen d-block d-sm-none-->
+<div class="inner d-block d-sm-none " style="background-color: #f1f1f1; ">
+         <nav class="navbar navbar-light ">
+                <a class="navbar-brand" href="#">Gamze Yapıcı</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                            <a class="nav-link" ui-sref-active="active" ui-sref="home">EXPERIENCE</a>
+                    </li>
+                    <li class="nav-item">
+                            <a class="nav-link" ui-sref-active="active" ui-sref="about">EDUCATION</a>
+                    </li>
+                    <li class="nav-item">
+                            <a class="nav-link" ui-sref-active="active" ui-sref="contact">CLIENTS</a>
+                    </li>    
+                    <li class="nav-item">
+                            <a class="nav-link" ui-sref-active="active" ui-sref="contact">EXPERTISE</a>
+                    </li>      
+                    <li class="nav-item">
+                            <a class="nav-link" ui-sref-active="active" ui-sref="contact">CONTACT</a>
+                    </li>    
+                  </ul>
+                </div>  
+              </nav> 
+      
+<!--/.Navbar-->
+</div>
+

@@ -22,11 +22,21 @@ a:hover {
     font-family: 'Times New Roman', Times, serif, Geneva, Tahoma, sans-serif;
  
   }
-
-  
-
-
 } 
+
+/* @media (max-width: 575px) { 
+  .nav-masthead{
+
+    padding: 2.25rem 0 0.25rem 3px;
+    font-weight: 100;
+    color: rgba(24, 33, 83, 1);
+    background-color: transparent;
+    border-bottom: .25rem solid transparent;
+ 
+  }
+}  */
+
+
 
 
 /* Custom default button */
