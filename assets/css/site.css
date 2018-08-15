@@ -36,6 +36,29 @@ a:hover {
   }
 }  */
 
+.slayt-info-header{
+  font-size: 14px;
+  font-weight: bold;
+  text-align: left;
+  font-family: 'Times New Roman', Times, serif, Geneva, Tahoma, sans-serif;
+}
+
+
+
+.slayt-info{
+  font-size: 14px;
+  font-family: 'Times New Roman', Times, serif, Geneva, Tahoma, sans-serif;
+  text-align: left;
+}
+
+
+.slayt-left{
+  height:370px; 
+  background-color:
+ #f1f1f1;
+  padding: 35px 0px 0px 55px;
+  text-align: left;
+}
 
 
 
