@@ -63,7 +63,7 @@ body {
 body {
   display: -ms-flexbox;
   display: flex;
-  color: rgba(24, 33, 83, 1);
+  color: rgba(24, 33, 83, 1) !important;
 
 }
 
@@ -85,6 +85,14 @@ body {
 
 
 
+
+
+
+
+
+
+
+
 /*
  * Header
  */
@@ -103,6 +111,8 @@ body {
   color: rgba(24, 33, 83, 1);
   background-color: transparent;
   border-bottom: .25rem solid transparent;
+
+  
 }
 
 .nav-masthead .nav-link:hover,
@@ -156,6 +166,13 @@ body {
 
 .second-paralax{
   background-image: url("../images/client.jpg");
+  background-size: cover;  
+ 
+}
+
+
+.deneme-paralax{
+  background-image: url("../images/deneme.jpg");
   background-size: cover;  
  
 }
@@ -453,4 +470,6 @@ font-size: 13px;
   } 
 
 
+
+  
   
