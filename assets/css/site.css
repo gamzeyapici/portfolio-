@@ -165,14 +165,13 @@ body {
 /*
  * Cover
  */
-.cover {
+/* .cover {
   padding: 0 1.5rem;
 }
 .cover .btn-lg {
   padding: .75rem 1.25rem;
   font-weight: 700;
-}
-
+} */
 
 /*
  * Footer
@@ -181,24 +180,15 @@ body {
   color: rgba(24, 33, 83, 1);
 }
 
-.first-paralax{
-  background-image: url("../images/profile.jpg");
-  background-size: cover;  
- 
-}
-
 .second-paralax{
   background-image: url("../images/client.jpg");
   background-size: cover;  
- 
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  
 }
 
-
-.deneme-paralax{
-  background-image: url("../images/deneme.jpg");
-  background-size: cover;  
- 
-}
 .heads{
   letter-spacing: 0.2em;
   font-weight: bold;
@@ -219,7 +209,8 @@ body {
   line-height: 2.0em;
   font: normal normal normal 15px/1.4em avenir-lt-w01_35-light1475496; 
   font-family: 'Times New Roman', Times, serif, Geneva, Tahoma, sans-serif;
-  padding-left: 20px;
+  text-align: left;
+ 
 }
 
 .experience-education-head{
@@ -243,21 +234,17 @@ body {
 
 }
 
+
 .footer-head{
 
     line-height: 1.8em;
     letter-spacing: 0.1em;
-    font-size: 18px;   
-    
- 
-    
+    font-size: 18px;      
 }
 
 .b{
   font-weight: bold;
 }
-
-
 
 .f-13{
 line-height: 1.8em;
@@ -286,12 +273,9 @@ font-size: 13px;
   color: #fff;
 
 }
-
 .left{
   float: left !important;
 }
-
-
 
 .bt{
   border-top:1px solid rgb(224, 224, 224);
@@ -337,13 +321,7 @@ font-size: 13px;
   
 }
 
-
-  
-
-
-
-
-.profile-index{
+/* .profile-index{
 
   font: normal normal normal 14px/1.4em avenir-lt-w01_35-light1475496; 
   letter-spacing: 0.05em;
@@ -351,7 +329,7 @@ font-size: 13px;
   background-color: #fff; 
   color: rgba(24, 33, 83, 1);
   padding-left: 60px;
-}
+} */
 .b{
   font-weight: bold;
 }
@@ -385,6 +363,50 @@ font-size: 13px;
   background-color: rgba(24, 33, 83, 1);
   padding-top:30px !important;
 }
+
+
+/**Neon-text-skills */
+@font-face {
+	font-family: Museo;
+
+}
+
+/** neon right */
+.neon {
+  text-align: center;
+  font-family: "times";
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #fff;
+  -webkit-animation:pulse 6.5s ease-in-out infinite alternate;
+  -webkit-backface-visibility: hidden;
+}
+
+@-webkit-keyframes pulse {
+  from {
+    text-shadow: 0 0 10px #fff,
+               0 0 20px #fff,
+               0 0 30px #fff,
+               0 0 40px #fff,
+               0 0 70px #fff,
+               0 0 80px #fff,
+            
+  }
+  to {
+    text-shadow: 0 0 5px #f1f1f1,
+               0 0 10px #111111,
+               0 0 15px #f1f1f1,
+               0 0 20px #f1f1f1,
+               0 0 35px #111111,
+               0 0 40px #f1f1f1f1,
+               0 0 50px #f1f1f1,
+               0 0 75px #111111;
+  }
+}
+
+
+
+
 
 
 /**FadeInLeft-Animation */
