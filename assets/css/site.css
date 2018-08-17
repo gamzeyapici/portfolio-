@@ -330,12 +330,15 @@ font-size: 13px;
   color: rgba(24, 33, 83, 1);
   padding-left: 60px;
 } */
+
 .b{
   font-weight: bold;
 }
 
 .profile-image{
  background-image: url("../images/profile.jpg");
+ background-size:contain;
+
  
 }
 .background-image{
@@ -367,7 +370,7 @@ font-size: 13px;
 
 /**Neon-text-skills */
 @font-face {
-	font-family: Museo;
+	font-family: 'Times New Roman', Times, serif;
 
 }
 
@@ -403,6 +406,8 @@ font-size: 13px;
                0 0 75px #111111;
   }
 }
+
+
 
 
 
