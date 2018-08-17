@@ -15,4 +15,19 @@
                 template: '<home></home>'
             });
         }]);
+
+
+
+
+            //  $scope(document).ready(function () {
+            //      $scope('#education').scroll(function () {
+            //          $scope('h5').css('display', 'inline').fadeInLeft(1000);
+            //  });
+            //  });
+        
+       
+      
+         
+
+
 })();
